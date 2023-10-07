@@ -1,0 +1,28 @@
+client/node_modules/
+server/node_modules/
+# temporarily ignore cordova app
+/app
+
+yarn-*.log
+fs
+
+# ignore VSCode things
+.vscode/
+jsconfig.json
+*.sql
+node_modules
+client/.env
+client/.env
+client/.yarn/cache
+client/.yarn
+server/.yarn/cache
+server/.yarn
+
+.idea/
+.DS_Store
+package-lock.json
+client/yarn.lock
+server/yarn.lock
+todo.md
+.env.local
+.env
